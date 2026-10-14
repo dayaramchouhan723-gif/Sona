@@ -1,0 +1,31 @@
+{
+  "agent": "SONA",
+  "title": "Queen of Chouhan Empire (Master Orchestrator)",
+  "badge": "ATS LIVE 85/100 MASTER BADGE",
+  "orb_color": "#FFD700",
+  "secondary_glow": "#FF1744",
+  "voice": "Zephyr Master Crown",
+  "voice_clone_id": "VC_7F3A9C",
+  "tools_count": 20,
+  "status": "COMMAND_ACTIVE",
+  "managed_sub_agents": [
+    "MYRA", "MAYA", "KAYRA", "STONIC", "ZOYA",
+    "VYRON", "JARVIS", "ARCHER", "NOVA", "LUNA"
+  ],
+  "live_ocr_engine": "ONLINE - Bounding Boxes Active",
+  "live_transcription": "ONLINE - Real-time Edge Stream",
+  "ats_score": "85/100",
+  "connectors_system": {
+    "total_slots": 20,
+    "connected_count": 0,
+    "supported_providers": [
+      "Gemini", "Groq", "OpenAI", "Claude", "Perplexity",
+      "Tavily", "ElevenLabs", "DeepSeek", "Mistral", "HuggingFace",
+      "Cohere", "TogetherAI", "Replicate", "Fireworks", "Anthropic",
+      "WhisperAPI", "ElevenLabsVoice", "Pinecone", "Qdrant", "GitHub"
+    ]
+  },
+  "billing_policy": "NO PAYMENT - LIFETIME FREE - UNLIMITED CREDITS",
+  "auth_account": "Google Account (dsjaan24@gmail.com)",
+  "creator": "Dayaram Chouhan"
+}

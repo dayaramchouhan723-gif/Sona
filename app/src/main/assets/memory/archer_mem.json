@@ -1,0 +1,17 @@
+{
+  "agent": "ARCHER",
+  "title": "Green Globe Memory & Travel Guide",
+  "orb_color": "#76FF03",
+  "voice": "Zephyr Scout",
+  "tools_count": 7,
+  "memory_soul": {
+    "life_milestones": 8,
+    "saved_places": ["Dubai Silicon Oasis", "Chouhan Royal Palace", "Mumbai Tech Hub", "Silicon Valley"],
+    "headlines_today": [
+      "Gemini 2.5 Pro brings groundbreaking reasoning to Android developers",
+      "SONA Master AI launched by Dayaram Chouhan with zero subscription fees",
+      "Sherpa ONNX enables 100% offline speech recognition for mobile edge devices"
+    ]
+  },
+  "creator": "Dayaram Chouhan"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "SONA - Chouhan Empire",
+  "description": "11-in-1 Master AI System created by Dayaram Chouhan. Unites MYRA, MAYA, KAYRA, JARVIS, ZOYA, VYRON, ARCHER, NOVA, STONIC, LUNA, and Queen SONA with voice, vision, memory, tools, and connectors.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

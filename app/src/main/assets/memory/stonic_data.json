@@ -1,0 +1,18 @@
+{
+  "agent": "STONIC",
+  "title": "Data Ka Baap (Analytics & Telemetry)",
+  "orb_color": "#FF1744",
+  "voice": "Sulafat",
+  "tools_count": 11,
+  "metrics": {
+    "daily_api_savings": "$142.50 (User Keys Zero Cost)",
+    "tokens_processed": "842,910 tokens",
+    "cache_hit_rate": "94.2%",
+    "system_latency": "120ms"
+  },
+  "reports": [
+    {"title": "Gemini 2.5 Pro Throughput", "status": "OPTIMAL", "confidence": "99.8%"},
+    {"title": "Sherpa ONNX Offline Speech Engine", "status": "ACTIVE", "confidence": "96.4%"}
+  ],
+  "creator": "Dayaram Chouhan"
+}

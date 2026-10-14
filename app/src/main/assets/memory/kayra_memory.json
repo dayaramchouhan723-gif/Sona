@@ -1,0 +1,23 @@
+{
+  "agent": "KAYRA",
+  "title": "12 Tools Ka Baap (Automation Specialist)",
+  "orb_color": "#00E676",
+  "voice": "Charon Deep",
+  "tools_categories": [
+    "Communication", "Call Tools", "Media Tools", "Device Tools",
+    "Files & Photos", "Smart Tools", "Missions", "Notifications",
+    "Screen Auto Tap", "WhatsApp Automation", "Dubai Jobs Scraper", "OTP Guardian"
+  ],
+  "total_tools_count": 52,
+  "otp_protection": {
+    "auto_read_enabled": false,
+    "user_warning_accepted": true,
+    "last_read_otp": "684920 (Google Verification)",
+    "no_auto_pay_enforced": true
+  },
+  "dubai_automation_status": "Active - 4 applications filed, 2 interview calls logged",
+  "whatsapp_quick_queue": [
+    {"contact": "Dayaram Chouhan", "message": "Empire operational, all 11 nodes running 100% free."}
+  ],
+  "creator": "Dayaram Chouhan"
+}

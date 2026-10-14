@@ -1,0 +1,17 @@
+{
+  "name": "SONA - Chouhan Empire",
+  "short_name": "SONA",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0D0B18",
+  "theme_color": "#0D0B18",
+  "description": "11-in-1 AI Master System by Dayaram Chouhan featuring MYRA, MAYA, KAYRA, JARVIS, ZOYA, VYRON, ARCHER, NOVA, STONIC, LUNA, and Queen SONA.",
+  "icons": [
+    {
+      "src": "/mipmap-xxxhdpi/ic_launcher.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "agent": "LUNA",
+  "title": "Purple Night Routine & Sleep AI",
+  "orb_color": "#D500F9",
+  "voice": "Zephyr Gentle",
+  "tools_count": 6,
+  "night_routine": {
+    "circadian_phase": "Deep Rest Alignment",
+    "ambient_soundscape": "Midnight Rain & Cosmic Binaural Waves",
+    "bedtime_target": "10:30 PM",
+    "sleep_score_target": "92/100"
+  },
+  "dream_journal_entries": [
+    "Exploring infinite neural horizons with Dayaram Chouhan's Empire.",
+    "Designing next-gen glassmorphism interfaces under purple starlight."
+  ],
+  "creator": "Dayaram Chouhan"
+}

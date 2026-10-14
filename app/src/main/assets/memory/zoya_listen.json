@@ -1,0 +1,15 @@
+{
+  "agent": "ZOYA",
+  "title": "Always Listening AI (Ambient Voice Service)",
+  "orb_color": "#00BFA5",
+  "voice": "Achernar",
+  "service_status": "Listening: Say 'Zoya' to activate",
+  "native_functions": [
+    "openApp(appName)",
+    "searchAndCallContact(contactName)",
+    "sendWhatsAppMessage(recipient, text)",
+    "sendGmail(subject, body)"
+  ],
+  "security_mode": "ACTION_DIAL safe mode (No background dial risks)",
+  "creator": "Dayaram Chouhan"
+}

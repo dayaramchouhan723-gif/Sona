@@ -1,0 +1,44 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "User account profile with free lifetime status",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string", "description": "Auth UID" },
+        "email": { "type": "string", "description": "Google email" },
+        "name": { "type": "string", "description": "Display name" },
+        "photo": { "type": "string", "description": "Photo URL" },
+        "freeLifetime": { "type": "boolean", "description": "Empire free lifetime tier" },
+        "createdAt": { "type": "string", "format": "date-time", "description": "Creation timestamp" },
+        "updatedAt": { "type": "string", "format": "date-time", "description": "Update timestamp" }
+      },
+      "required": ["userId", "email", "name", "freeLifetime", "createdAt"]
+    },
+    "AgentMemory": {
+      "title": "AgentMemory",
+      "description": "Synchronized agent memory file",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Document ID" },
+        "agentId": { "type": "string", "description": "Agent identifier" },
+        "userId": { "type": "string", "description": "Auth UID" },
+        "agentName": { "type": "string", "description": "Agent name" },
+        "memoryJson": { "type": "string", "description": "Serialized memory JSON" },
+        "createdAt": { "type": "string", "format": "date-time", "description": "Creation timestamp" },
+        "updatedAt": { "type": "string", "format": "date-time", "description": "Update timestamp" }
+      },
+      "required": ["id", "agentId", "userId", "agentName", "memoryJson", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "UserProfile",
+      "description": "User account documents"
+    },
+    "/users/{userId}/agent_memories/{agentId}": {
+      "schema": "AgentMemory",
+      "description": "Per-user synchronized agent memories"
+    }
+  }
+}
